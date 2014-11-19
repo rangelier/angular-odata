@@ -12,7 +12,7 @@ Please register your route prefix in the module.config method.
        $odataProvider.routePrefix("/odata/");
     }]);
 
-The request parameters to url's that contain the configured prefix will be converted to odata format.
+The *GET* request parameters to url's that contain the configured prefix will be converted to odata format.
 
 Example
 =============

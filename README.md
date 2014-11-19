@@ -1,4 +1,4 @@
-angular-odata
+Angular-odata
 =============
 
 This module converts *GET* request parameters to the odata format when using $resource.

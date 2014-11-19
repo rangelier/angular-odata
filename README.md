@@ -3,7 +3,7 @@ Angular-odata
 
 This module converts *GET* request parameters to the odata format when using $resource.
 
-How to
+Configuration
 =============
 Please register your route prefix in the module.config method.
 
@@ -14,7 +14,7 @@ Please register your route prefix in the module.config method.
 
 The *GET* request parameters to url's that contain the configured prefix will be converted to odata format.
 
-Example
+How to
 =============
 
     app.factory("fakeResource",["$resource", function($resource){

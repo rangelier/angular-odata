@@ -1,7 +1,7 @@
 angular-odata
 =============
 
-This module converts *GET* request parameters to the odata format.
+This module converts *GET* request parameters to the odata format when using $resource.
 
 How to
 =============

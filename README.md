@@ -30,6 +30,7 @@ Example
     }]);
     
 the actuel GET url will be transformed from:
+
 http://localhost/api/odata/Product?format=application/json
 
 **to**

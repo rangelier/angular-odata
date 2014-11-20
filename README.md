@@ -8,8 +8,9 @@ Configuration
 Please register your route prefix in the module.config method.
 
     var app = angular.modulde("app",["ngResource"]);
-    app.config(["$odataProvider",function($odataProvider){
+    app.config(["$httpProvider","$odataProvider",function($httpProvider, $odataProvider){
        $odataProvider.routePrefix("/odata/");
+       $httpProvider.interceptors.push("odataInterceptor");
     }]);
 
 The *GET* request parameters to url's that contain the configured prefix will be converted to odata format.

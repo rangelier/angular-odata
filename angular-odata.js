@@ -5,7 +5,7 @@
      * This module provides support for odata requests when using $resource in angular js.
      * Copyright (c) 2014 Code Fabriek
      */
-    var odata = angular.module("grccontrol.odata", []);
+    var odata = angular.module("codefabriek.odata", []);
 
     /**
      * Configure the odata settings.

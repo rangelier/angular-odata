@@ -7,7 +7,7 @@ Configuration
 =============
 Please register your route prefix in the module.config method.
 
-    var app = angular.modulde("app",["ngResource"]);
+    var app = angular.modulde("app",["ngResource","codefabriek.odata"]);
     app.config(["$httpProvider","$odataProvider",function($httpProvider, $odataProvider){
        $odataProvider.routePrefix("/odata/");
        $httpProvider.interceptors.push("odataInterceptor");

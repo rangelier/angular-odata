@@ -38,7 +38,7 @@ http://localhost/api/odata/Product?format=application/json
 
 http://localhost/api/odata/Product?$format=application/json
 
-Release under the MIT license
+MIT license
 =============================
 Copyright (c) 2015 Code Fabriek
 
